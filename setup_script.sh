@@ -4,6 +4,8 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 #setup .vimrc
 echo "set nu\nset relativenumber\nset mouse=a\nset autoindent\nsyntax on" > ~/.vimrc && source ~/.vimrc
+#link home to desktop
+ln -s ~ ~/Desktop/tlstephen_home
 #get ssh key and copy it clipboard
 ssh-keygen
 ls ~/.ssh
