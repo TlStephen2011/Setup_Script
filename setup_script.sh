@@ -11,4 +11,4 @@ eval `ssh-agent`
 ssh-add -K ~/.ssh/id_rsa
 echo "Host *\n\tUseKeychain yes" > ~/.ssh/config
 pbcopy < ~/.ssh/id_rsa.pub
-echo "SSH key copied. Enter it on bitbucket.com\n"
+echo "SSH key copied. Enter it on bitbucket.com"
